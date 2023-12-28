@@ -1,0 +1,26 @@
+---
+import Hamburger from "./Hamburger.astro";
+import Navigation from "./Navigation.astro";
+---
+
+<style>
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+    }
+    img {
+        border-radius: 10%;
+    }
+</style>
+
+<header>
+    <img src="https://placehold.co/100x100" />
+    <nav>
+        <Hamburger />
+        <Navigation />
+    </nav>
+</header>
+
+<hr />
